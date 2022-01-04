@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Calculator</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="top-section">
+				<h1>calc</h1>
+				<div class="theme">
+					<p class="theme__p">theme</p>
+					<div class="theme__toggle-cont">
+						<div class="theme__label-cont">
+							<div><p>1</p></div>
+							<div><p>2</p></div>
+							<div><p>3</p></div>
+						</div>
+						<label class="toggle-box">
+							<input type="radio" class="color-input input1" value="color1" name="input" checked />
+							<input type="radio" class="color-input input2" value="color2" name="input" />
+							<input type="radio" class="color-input input3" value="color3" name="input" />
+						</label>
+					</div>
+				</div>
+			</div>
+
+			<div class="calculator">
+				<div class="calculator__screen">
+					<span class="calculator__display">0</span>
+				</div>
+
+				<div class="calculator__buttons">
+					<button class="key" value="7">7</button>
+					<button class="key" value="8">8</button>
+					<button class="key" value="9">9</button>
+					<button class="delete">del</button>
+					<button class="key" value="4">4</button>
+					<button class="key" value="5">5</button>
+					<button class="key" value="6">6</button>
+					<button class="key operator" value="+">+</button>
+					<button class="key" value="1">1</button>
+					<button class="key" value="2">2</button>
+					<button class="key" value="3">3</button>
+					<button class="key operator" value="-">-</button>
+					<button class="key decimal" value=".">.</button>
+					<button class="key" value="0">0</button>
+					<button class="key operator" value="/">/</button>
+					<button class="key operator" value="*">x</button>
+					<button class="reset">reset</button>
+					<button class="equal-sign" value="=">=</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="./js/script.js"></script>
+	</body>
+</html>
